@@ -1,0 +1,50 @@
+
+:root{
+
+    --color_english_violet: #403D58;
+    --color_straw: #DBD56E;
+    --color_Tiffany_Blue: #66D7D1;
+    --color_Isabelline: #F2EFEA;
+    --color_coral: #FC7752;
+}
+
+
+.header-background-general{
+
+    background-color: #403D58;
+}
+
+
+.text-color-palette-general{
+
+    color: #F2EFEA;
+}
+
+.img-header-logo{
+
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.navbar-top{
+
+    height: 3.625rem;
+}
+
+.btn-navbar-design{
+
+    background-color: transparent;
+    border-color: transparent;
+    color:#66D7D1;
+}
+
+.logo-header-img{
+
+    width: 6.9%;
+}
+
+.text-button-login-p{
+
+    font-size: 0.9rem;
+}
