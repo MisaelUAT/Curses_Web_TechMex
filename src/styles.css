@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+
+--color_negro:#050000;
+--color_rojo:#f70b17;
+--color_verdesuave:#9a8c29;
+--color_gris:#423431;
+--color_rosasuave: #e7cba4;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'ShadiwLight';
+    src:url(/assets/fonts/Ubuntu/ShadowsIntoLight-Regular.ttf)
+
+}

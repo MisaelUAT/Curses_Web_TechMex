@@ -1,18 +1,4 @@
 
-:root{
-
-    --color_english_violet: #403D58;
-    --color_straw: #DBD56E;
-    --color_Tiffany_Blue: #66D7D1;
-    --color_Isabelline: #F2EFEA;
-    --color_coral: #FC7752;
-}
-
-
-.header-background-general{
-
-    background-color: #403D58;
-}
 
 
 .text-color-palette-general{
@@ -41,7 +27,7 @@
 
 .logo-header-img{
 
-    width: 6.9%;
+    width: 12%;
 }
 
 .text-button-login-p{
