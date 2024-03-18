@@ -1,0 +1,19 @@
+.background-suscriptions-color {
+    background-image: linear-gradient(to bottom, #000080, #ffc0cb);
+  }
+  
+
+.font-ubuntu-bold{
+
+    font-family:'Ubuntu-Bold'
+}
+
+.font-ubuntu{
+
+    font-family: 'Ubuntu';
+}
+
+.margin-buttons-center{
+
+    margin-left: 3.5rem;
+}

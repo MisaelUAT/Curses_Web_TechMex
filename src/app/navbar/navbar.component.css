@@ -6,3 +6,14 @@
 
     font-family: 'Ubuntu-Bold';
 }
+
+.navbar-background-general{
+
+    background-color: var(--color_melocoton);
+}
+
+.font-color-navbar{
+
+    color:var(--color_negrogris)
+}
+

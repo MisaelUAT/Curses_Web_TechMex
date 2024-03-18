@@ -1,4 +1,4 @@
-
+/* 
 
 
 .text-color-palette-general{
@@ -33,4 +33,23 @@
 .text-button-login-p{
 
     font-size: 0.9rem;
+} */
+
+
+.navbar-general-style{
+    background-color:var(--color_azul);
 }
+
+.text-font-color{
+    color:var(--color_verdeblanco);
+}
+
+.text-font-ubuntu{
+    font-family:'Ubuntu-Bold';
+}
+
+.img-configuration-logo{
+
+    width: 10%;
+}
+
