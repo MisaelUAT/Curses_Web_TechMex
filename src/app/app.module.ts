@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+//Scripts of the Javascripts
+import { ScriptsLoadingService } from './scripts-loading.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,12 +15,14 @@ import { AcercaNosotrosComponent } from './content/acerca-nosotros/acerca-nosotr
 import { BienvenidosComponent } from './content/bienvenidos/bienvenidos.component';
 import { RouterModule,Routes } from '@angular/router';
 import { CentroAyudaComponent } from './content/centro-ayuda/centro-ayuda.component';
+import { PlantillaCursoComponent } from './content/plantilla-curso/plantilla-curso.component';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'centro-ayuda', component: CentroAyudaComponent },
   { path: 'suscripciones', component: SuscripcionesComponent },
-  { path: 'acerca-nosotros', component: AcercaNosotrosComponent }
+  { path: 'acerca-nosotros', component: AcercaNosotrosComponent },
+  {path: 'plantilla-curso', component: PlantillaCursoComponent}
   ]
 @NgModule({
   declarations: [
@@ -31,14 +35,17 @@ const appRoutes: Routes = [
     SuscripcionesComponent,
     AcercaNosotrosComponent,
     BienvenidosComponent,
-    CentroAyudaComponent
+    CentroAyudaComponent,
+    PlantillaCursoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes,{enableTracing: true})
   ],
-  providers: [],
+  providers: [
+    ScriptsLoadingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

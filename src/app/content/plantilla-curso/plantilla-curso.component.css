@@ -1,0 +1,121 @@
+.font-ubuntu-normal{
+
+    font-family: 'Ubuntu';
+}
+
+.font-ubuntu-bold{
+
+    font-family: 'Ubuntu-Bold';
+}
+
+.span-start-container{
+
+    color: white;
+}
+
+/* .span-start-container:hover{
+    color: red;
+} */
+
+.container-stars-califications{
+
+    max-width: 6rem;
+}
+
+.text-color-information-main{
+
+    color: #008000;
+}
+
+.container-video-introduction{
+
+    max-width: 100%;
+
+
+}
+
+.list-form-correct{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.list-form-correct li{
+
+    padding-left: 2rem;
+    background-image: url('/assets/img/mano.png');
+    background-position: 0 0;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+}
+
+
+.list-form-video li{
+    list-style-type: none;
+    padding-left: 2rem;
+    background-image: url('/assets/img/video.png');
+    background-position: 0 0;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+}
+
+.container-table-content{
+    border: 0.5px groove #DFD4D1;
+    box-shadow: 5px 5px 5px #DFD4D1;
+}
+
+.container-information-course-general-2{
+    border: 0.5px groove #DFD4D1;
+    box-shadow: -5px -5px 5px #DFD4D1;
+    
+}
+
+.container-general-information-price-1{
+
+    margin-left: 10rem;
+}
+
+
+
+
+.span-style-configuration{
+
+    margin-left: 8.4rem;
+}
+
+
+/* .container-general-information-price-1{
+
+    max-width: 70vh;
+} */
+
+
+/* @media (min-width: 240px) and (max-width: 1040px) {
+    .container-general-information-price-1 {
+        margin-top:1rem;
+        margin-left: 0.2rem;
+    }
+
+    .form-control-sm{
+
+        width: 20vh;
+    }
+
+    .container-information-course-general-2{
+        box-shadow: -5px -5px 5px #DFD4D1,
+        5px 5px 5px #DFD4D1;
+    }
+
+    .container-table-content{
+
+        box-shadow: -5px -5px 5px #DFD4D1,
+        5px 5px 5px #DFD4D1;
+    }
+} */
+
+
+
+
+
+
+
+
