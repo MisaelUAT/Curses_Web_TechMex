@@ -48,6 +48,22 @@
     background-repeat: no-repeat;
 }
 
+.list-form-verificado li{
+
+    padding-left: 2rem;
+    background-image: url('/assets/img/verificacion-de-escudo.png');
+    background-position: 0 0;
+    background-size: 1.3rem 1.3rem;
+    background-repeat: no-repeat;
+    list-style: none;
+}
+
+.information-contact-docent{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 .list-form-video li{
     list-style-type: none;
@@ -56,6 +72,12 @@
     background-position: 0 0;
     background-size: 1.3rem 1.3rem;
     background-repeat: no-repeat;
+}
+
+.style-links-videos li a{
+
+    text-decoration: none;
+
 }
 
 .container-table-content{
@@ -69,18 +91,77 @@
     
 }
 
-.container-general-information-price-1{
 
-    margin-left: 10rem;
+.container-information-style{
+
+    border: 0.5px groove #DFD4D1;
+    box-shadow: 5px 5px 5px #DFD4D1;
+
 }
 
+/* .container-general-information-price-1{
+
+    margin-left: 20rem;
+    
+} */
 
 
+.input-style-configuration{
+
+    display: flex;
+    justify-content: center;
+}
 
 .span-style-configuration{
 
     margin-left: 8.4rem;
 }
+
+
+.image-instructor-perfil{
+
+    border-radius: 50%;
+    width: 20vmin;
+    height: 17vmin;
+ 
+}
+
+.container-menu-course{
+
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 240px) and (max-width: 480px)
+{
+    .input-style-group{
+        /* margin-left: 2rem; */
+        width: calc(100% - 17vh);
+
+    }
+
+
+
+
+}
+
+@media (min-width: 600px) and (max-width:992px){
+
+    .input-style-group{
+        width: calc(100% - 14vw);
+        /* margin-left: 1rem; */
+    }
+
+}
+
+
+.hours-style-span{
+
+    margin-left: 2rem;
+}
+
+
+
 
 
 /* .container-general-information-price-1{
