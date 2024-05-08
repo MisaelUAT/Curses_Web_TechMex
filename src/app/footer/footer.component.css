@@ -1,0 +1,14 @@
+.list-style-links{
+
+    list-style: none;
+}
+
+.list-style-links li a{
+    text-decoration: none;
+}
+
+.font-ubuntu{
+
+    font-family: 'Ubuntu';
+
+}
